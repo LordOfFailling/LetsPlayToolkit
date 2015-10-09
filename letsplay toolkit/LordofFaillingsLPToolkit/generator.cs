@@ -131,6 +131,11 @@ namespace LordofFaillingsLPToolkit
 			}
 		}
 
+        private void txtErgebnis_TextChanged(object sender, EventArgs e)
+        {
+            txtErgebnis.SelectionStart = txtErgebnis.Text.Length;
+            txtErgebnis.ScrollToCaret();
+        }
     }
 
 }

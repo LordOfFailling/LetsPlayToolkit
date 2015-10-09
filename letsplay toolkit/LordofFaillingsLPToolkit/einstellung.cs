@@ -27,5 +27,10 @@ namespace LordofFaillingsLPToolkit
 		{
 			startseite.DefaultInstance.Show();
 		}
+
+        private void TabPageYoutube_Click(object sender, EventArgs e)
+        {
+
+        }
+        }
     }
-}

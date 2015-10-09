@@ -67,6 +67,7 @@ namespace LordofFaillingsLPToolkit
             this.TabPageYoutube.TabIndex = 0;
             this.TabPageYoutube.Text = "Youtube";
             this.TabPageYoutube.UseVisualStyleBackColor = true;
+            this.TabPageYoutube.Click += new System.EventHandler(this.TabPageYoutube_Click);
             // 
             // TabPageEinstellungen
             // 

@@ -262,6 +262,7 @@ namespace LordofFaillingsLPToolkit
             this.txtErgebnis.ReadOnly = true;
             this.txtErgebnis.Size = new System.Drawing.Size(636, 118);
             this.txtErgebnis.TabIndex = 24;
+            this.txtErgebnis.TextChanged += new System.EventHandler(this.txtErgebnis_TextChanged);
             // 
             // lbldes
             // 
@@ -402,7 +403,6 @@ namespace LordofFaillingsLPToolkit
         internal System.Windows.Forms.CheckBox chbTogether;
         internal System.Windows.Forms.TextBox txtMusik;
         internal System.Windows.Forms.CheckBox chbMusik;
-
     }
 
 }

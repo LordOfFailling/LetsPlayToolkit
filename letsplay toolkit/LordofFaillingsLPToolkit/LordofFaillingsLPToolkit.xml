@@ -37,5 +37,12 @@
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
+        <member name="T:Google.Apis.YouTube.Samples.MyUploads">
+            <summary>
+            YouTube Data API v3 sample: retrieve my uploads.
+            Relies on the Google APIs Client Library for .NET, v1.7.0 or higher.
+            See https://code.google.com/p/google-api-dotnet-client/wiki/GettingStarted
+            </summary>
+        </member>
     </members>
 </doc>

@@ -124,11 +124,23 @@
   <data name="MenuStrip1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Segoe UI, 9pt</value>
   </data>
+  <data name="SchließenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>125, 22</value>
+  </data>
+  <data name="SchließenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Schließen</value>
+  </data>
   <data name="ProgrammToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 20</value>
   </data>
   <data name="ProgrammToolStripMenuItem.Text" xml:space="preserve">
     <value>Programm</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 22</value>
+  </data>
+  <data name="EinstellungenToolStripMenuItem.Text" xml:space="preserve">
+    <value>Einstellungen</value>
   </data>
   <data name="OptionenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
     <value>69, 20</value>
@@ -159,19 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;MenuStrip1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="SchließenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>125, 22</value>
-  </data>
-  <data name="SchließenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Schließen</value>
-  </data>
-  <data name="EinstellungenToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
-    <value>145, 22</value>
-  </data>
-  <data name="EinstellungenToolStripMenuItem.Text" xml:space="preserve">
-    <value>Einstellungen</value>
+    <value>4</value>
   </data>
   <data name="Panel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 22</value>
@@ -192,7 +192,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;Panel1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="beschr_button.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 38</value>
@@ -216,7 +216,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;beschr_button.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lpt_button.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
@@ -244,6 +244,30 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lpt_button.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ytlogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 99</value>
+  </data>
+  <data name="ytlogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>145, 35</value>
+  </data>
+  <data name="ytlogin.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="ytlogin.Text" xml:space="preserve">
+    <value>Youtube Anmelden</value>
+  </data>
+  <data name="&gt;&gt;ytlogin.Name" xml:space="preserve">
+    <value>ytlogin</value>
+  </data>
+  <data name="&gt;&gt;ytlogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ytlogin.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ytlogin.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
