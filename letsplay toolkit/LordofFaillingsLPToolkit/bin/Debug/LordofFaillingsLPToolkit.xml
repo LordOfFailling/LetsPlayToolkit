@@ -4,18 +4,18 @@
         <name>LordofFaillingsLPToolkit</name>
     </assembly>
     <members>
-        <member name="F:LordofFaillingsLPToolkit.bgenerator.components">
+        <member name="F:LordofFaillingsLPToolkit.letsplaytimer.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:LordofFaillingsLPToolkit.bgenerator.Dispose(System.Boolean)">
+        <member name="M:LordofFaillingsLPToolkit.letsplaytimer.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:LordofFaillingsLPToolkit.bgenerator.InitializeComponent">
+        <member name="M:LordofFaillingsLPToolkit.letsplaytimer.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
@@ -35,13 +35,6 @@
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
-            </summary>
-        </member>
-        <member name="T:Google.Apis.YouTube.Samples.MyUploads">
-            <summary>
-            YouTube Data API v3 sample: retrieve my uploads.
-            Relies on the Google APIs Client Library for .NET, v1.7.0 or higher.
-            See https://code.google.com/p/google-api-dotnet-client/wiki/GettingStarted
             </summary>
         </member>
     </members>

@@ -40,6 +40,7 @@ namespace LordofFaillingsLPToolkit
         [System.Diagnostics.DebuggerStepThrough()]
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmGenerator));
             this.lblInfo = new System.Windows.Forms.Label();
             this.lblInfo2 = new System.Windows.Forms.Label();
             this.lblPlaylist = new System.Windows.Forms.Label();
@@ -83,6 +84,9 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblInfo2
             // 
+            this.lblInfo2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblInfo2.AutoSize = true;
             this.lblInfo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInfo2.Location = new System.Drawing.Point(12, 35);
@@ -93,6 +97,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblPlaylist
             // 
+            this.lblPlaylist.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblPlaylist.AutoSize = true;
             this.lblPlaylist.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPlaylist.Location = new System.Drawing.Point(12, 74);
@@ -103,6 +109,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtPlaylist
             // 
+            this.txtPlaylist.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtPlaylist.Location = new System.Drawing.Point(135, 70);
             this.txtPlaylist.Name = "txtPlaylist";
             this.txtPlaylist.Size = new System.Drawing.Size(516, 20);
@@ -110,6 +118,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblEFolge
             // 
+            this.lblEFolge.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblEFolge.AutoSize = true;
             this.lblEFolge.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblEFolge.Location = new System.Drawing.Point(12, 97);
@@ -120,6 +130,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtErsteFolge
             // 
+            this.txtErsteFolge.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtErsteFolge.Location = new System.Drawing.Point(135, 96);
             this.txtErsteFolge.Name = "txtErsteFolge";
             this.txtErsteFolge.Size = new System.Drawing.Size(516, 20);
@@ -127,6 +139,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtMitspieler
             // 
+            this.txtMitspieler.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMitspieler.Location = new System.Drawing.Point(135, 122);
             this.txtMitspieler.Multiline = true;
             this.txtMitspieler.Name = "txtMitspieler";
@@ -135,6 +149,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // chbMitspieler
             // 
+            this.chbMitspieler.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.chbMitspieler.AutoSize = true;
             this.chbMitspieler.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbMitspieler.Location = new System.Drawing.Point(15, 122);
@@ -147,6 +163,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblSpielname
             // 
+            this.lblSpielname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSpielname.AutoSize = true;
             this.lblSpielname.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSpielname.Location = new System.Drawing.Point(12, 240);
@@ -157,6 +175,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtSpielname
             // 
+            this.txtSpielname.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSpielname.Location = new System.Drawing.Point(135, 239);
             this.txtSpielname.Name = "txtSpielname";
             this.txtSpielname.Size = new System.Drawing.Size(516, 20);
@@ -164,6 +184,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblBeschreibung
             // 
+            this.lblBeschreibung.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBeschreibung.AutoSize = true;
             this.lblBeschreibung.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBeschreibung.Location = new System.Drawing.Point(12, 265);
@@ -174,6 +196,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtBeschreibung
             // 
+            this.txtBeschreibung.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBeschreibung.Location = new System.Drawing.Point(135, 265);
             this.txtBeschreibung.Multiline = true;
             this.txtBeschreibung.Name = "txtBeschreibung";
@@ -182,6 +206,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // chbZusatz
             // 
+            this.chbZusatz.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.chbZusatz.AutoSize = true;
             this.chbZusatz.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbZusatz.Location = new System.Drawing.Point(15, 148);
@@ -194,6 +220,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtZusatz
             // 
+            this.txtZusatz.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtZusatz.Location = new System.Drawing.Point(135, 148);
             this.txtZusatz.Name = "txtZusatz";
             this.txtZusatz.Size = new System.Drawing.Size(516, 20);
@@ -201,6 +229,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblBeschreibungZ
             // 
+            this.lblBeschreibungZ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblBeschreibungZ.AutoSize = true;
             this.lblBeschreibungZ.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBeschreibungZ.Location = new System.Drawing.Point(12, 175);
@@ -211,6 +241,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblJahr
             // 
+            this.lblJahr.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblJahr.AutoSize = true;
             this.lblJahr.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblJahr.Location = new System.Drawing.Point(12, 331);
@@ -221,6 +253,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtJahr
             // 
+            this.txtJahr.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtJahr.Location = new System.Drawing.Point(135, 330);
             this.txtJahr.Name = "txtJahr";
             this.txtJahr.Size = new System.Drawing.Size(516, 20);
@@ -228,6 +262,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtSpieleLink
             // 
+            this.txtSpieleLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtSpieleLink.Location = new System.Drawing.Point(135, 356);
             this.txtSpieleLink.Name = "txtSpieleLink";
             this.txtSpieleLink.Size = new System.Drawing.Size(516, 20);
@@ -235,6 +271,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lblSpielLink
             // 
+            this.lblSpielLink.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lblSpielLink.AutoSize = true;
             this.lblSpielLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblSpielLink.Location = new System.Drawing.Point(12, 356);
@@ -245,6 +283,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // btnErstellen
             // 
+            this.btnErstellen.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.btnErstellen.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnErstellen.Location = new System.Drawing.Point(15, 453);
             this.btnErstellen.Name = "btnErstellen";
@@ -256,6 +296,9 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtErgebnis
             // 
+            this.txtErgebnis.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtErgebnis.Location = new System.Drawing.Point(15, 508);
             this.txtErgebnis.Multiline = true;
             this.txtErgebnis.Name = "txtErgebnis";
@@ -266,6 +309,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lbldes
             // 
+            this.lbldes.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbldes.AutoSize = true;
             this.lbldes.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldes.Location = new System.Drawing.Point(12, 284);
@@ -276,6 +321,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtBeschreibungZ
             // 
+            this.txtBeschreibungZ.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtBeschreibungZ.Location = new System.Drawing.Point(135, 174);
             this.txtBeschreibungZ.Multiline = true;
             this.txtBeschreibungZ.Name = "txtBeschreibungZ";
@@ -284,6 +331,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lbldes2
             // 
+            this.lbldes2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbldes2.AutoSize = true;
             this.lbldes2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbldes2.Location = new System.Drawing.Point(12, 195);
@@ -294,6 +343,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // lbletc
             // 
+            this.lbletc.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.lbletc.AutoSize = true;
             this.lbletc.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbletc.Location = new System.Drawing.Point(12, 217);
@@ -304,6 +355,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // chbTogether
             // 
+            this.chbTogether.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.chbTogether.AutoSize = true;
             this.chbTogether.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbTogether.Location = new System.Drawing.Point(15, 308);
@@ -315,6 +368,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // txtMusik
             // 
+            this.txtMusik.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.txtMusik.Location = new System.Drawing.Point(135, 382);
             this.txtMusik.Multiline = true;
             this.txtMusik.Name = "txtMusik";
@@ -323,6 +378,8 @@ namespace LordofFaillingsLPToolkit
             // 
             // chbMusik
             // 
+            this.chbMusik.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.chbMusik.AutoSize = true;
             this.chbMusik.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.chbMusik.Location = new System.Drawing.Point(15, 382);
@@ -366,10 +423,10 @@ namespace LordofFaillingsLPToolkit
             this.Controls.Add(this.lblPlaylist);
             this.Controls.Add(this.lblInfo2);
             this.Controls.Add(this.lblInfo);
-            this.MaximumSize = new System.Drawing.Size(683, 674);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(683, 674);
             this.Name = "frmGenerator";
-            this.Text = "ShowCast\'s Beschreibungs Generator v1.1";
+            this.Text = "Beschreibungs Generator";
             this.Load += new System.EventHandler(this.frmGenerator_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -50,7 +50,7 @@ namespace LordofFaillingsLPToolkit
             this.Panel1 = new System.Windows.Forms.Panel();
             this.beschr_button = new System.Windows.Forms.Button();
             this.lpt_button = new System.Windows.Forms.Button();
-            this.ytlogin = new System.Windows.Forms.Button();
+            this.copyrightsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.MenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,6 +65,7 @@ namespace LordofFaillingsLPToolkit
             // ProgrammToolStripMenuItem
             // 
             this.ProgrammToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.copyrightsToolStripMenuItem,
             this.SchließenToolStripMenuItem});
             this.ProgrammToolStripMenuItem.Name = "ProgrammToolStripMenuItem";
             resources.ApplyResources(this.ProgrammToolStripMenuItem, "ProgrammToolStripMenuItem");
@@ -107,18 +108,16 @@ namespace LordofFaillingsLPToolkit
             this.lpt_button.UseVisualStyleBackColor = true;
             this.lpt_button.Click += new System.EventHandler(this.lpt_button_Click);
             // 
-            // ytlogin
+            // copyrightsToolStripMenuItem
             // 
-            resources.ApplyResources(this.ytlogin, "ytlogin");
-            this.ytlogin.Name = "ytlogin";
-            this.ytlogin.UseVisualStyleBackColor = true;
-            this.ytlogin.Click += new System.EventHandler(this.ytlogin_Click);
+            this.copyrightsToolStripMenuItem.Name = "copyrightsToolStripMenuItem";
+            resources.ApplyResources(this.copyrightsToolStripMenuItem, "copyrightsToolStripMenuItem");
+            this.copyrightsToolStripMenuItem.Click += new System.EventHandler(this.copyrightsToolStripMenuItem_Click);
             // 
             // startseite
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.ytlogin);
             this.Controls.Add(this.lpt_button);
             this.Controls.Add(this.beschr_button);
             this.Controls.Add(this.Panel1);
@@ -141,7 +140,7 @@ namespace LordofFaillingsLPToolkit
 		internal Panel Panel1;
 		internal Button beschr_button;
 		internal Button lpt_button;
-        private Button ytlogin;
+        private ToolStripMenuItem copyrightsToolStripMenuItem;
     }
 
 }
